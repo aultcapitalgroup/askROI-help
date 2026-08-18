@@ -26,76 +26,87 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Help Center",
         "groups": [
           {
             "group": "Overview",
             "pages": [
-              "introduction",
-              "quickstart",
-              "plans-and-pricing"
+              "index"
             ]
           },
           {
-            "group": "Your Account",
+            "group": "Getting Started",
             "pages": [
-              "account/sign-up",
-              "account/managing-your-account",
-              "account/credits-and-usage"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Features",
-        "groups": [
-          {
-            "group": "AI Chat",
-            "pages": [
-              "features/ai-chat",
-              "features/projects",
-              "features/voice-input-playback"
+              "welcome-to-askroi-your-ultimate-ai-solution"
             ]
           },
           {
-            "group": "Research & Files",
+            "group": "Apps",
             "pages": [
-              "features/web-search",
-              "features/file-upload-analysis",
-              "features/citations"
+              "what-are-the-apps-in-askroi"
             ]
           },
           {
-            "group": "Creation Tools",
+            "group": "Prompts",
             "pages": [
-              "features/image-generation",
-              "features/code-assistance",
-              "features/vector-graphics-design"
+              "advanced-prompting-tips-and-tricks-for-beginners"
             ]
           },
           {
-            "group": "Collaboration & Integrations",
+            "group": "Plans & Billing",
             "pages": [
-              "features/group-chats",
-              "features/mcp-integrations",
-              "features/google-workspace"
+              "what-types-of-plans-do-you-have",
+              "what-are-the-pricing-plans",
+              "how-do-i-cancel-my-subscription"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Support",
-        "groups": [
+          },
           {
-            "group": "Help",
+            "group": "Enterprise Plan FAQs",
             "pages": [
-              "support/faq",
-              "support/troubleshooting",
-              "support/contact"
+              "what-are-the-benefits-of-the-enterprise-progarm"
+            ]
+          },
+          {
+            "group": "Technical FAQs",
+            "pages": [
+              "how-to-update-your-password-in-askroi",
+              "how-to-export-my-history-from-askroi",
+              "how-to-update-your-profile-picture-in-askroi",
+              "how-to-update-your-name-in-askroi",
+              "how-to-manage-your-email-address-in-askroi",
+              "how-to-delete-your-askroi-account",
+              "how-to-reset-my-password",
+              "what-should-i-do-if-i-encounter-a-bug-or-error"
+            ]
+          },
+          {
+            "group": "Customer & Sales Support",
+            "pages": [
+              "how-can-i-reach-your-sales-team",
+              "what-is-your-customer-support-number",
+              "how-do-i-contact-support"
+            ]
+          },
+          {
+            "group": "General FAQs",
+            "pages": [
+              "how-do-i-create-projects",
+              "what-are-your-support-hours"
+            ]
+          },
+          {
+            "group": "Policies",
+            "pages": [
+              "privacy-policy",
+              "usage-policy",
+              "terms-of-service"
             ]
           }
         ]
       }
     ]
+  },
+  "appearance": {
+    "default": "light"
   }
 }
