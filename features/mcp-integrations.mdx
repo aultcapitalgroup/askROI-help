@@ -1,0 +1,63 @@
+---
+title: "Connect 100+ Tools with MCP Integrations"
+sidebarTitle: "MCP Integrations"
+description: "Extend askROI with 100+ MCP integrations — connect productivity apps, dev tools, databases, and more to your AI workspace in minutes."
+---
+
+askROI supports over 100 MCP (Model Context Protocol) integrations, letting you connect your favorite tools and services directly to your AI workspace. Instead of switching between apps, you can access your data, trigger actions, and get AI-assisted results from dozens of platforms — all from within a single askROI chat.
+
+## What Are MCP Integrations?
+
+MCP (Model Context Protocol) is an open standard that defines how AI models communicate with external tools and services. Think of it as a universal connector: once a tool implements MCP, any compatible AI — including askROI — can interact with it in a structured, reliable way.
+
+With MCP integrations, askROI can read data from your connected tools, perform actions on your behalf, and incorporate that information into its responses. Rather than simply answering questions from its training data, askROI can pull live data from your project manager, query a connected database, or send a message through your communication platform — all in natural language.
+
+## Available Integrations
+
+The askROI integrations library includes 100+ tools across a range of categories:
+
+- **Productivity** — Google Workspace, Notion, Airtable, and more for managing documents, notes, and workflows.
+- **Development** — GitHub, GitLab, Jira, and other tools for code, issues, and CI/CD pipelines.
+- **Communication** — Slack, Microsoft Teams, and similar platforms for sending messages and reading channel history.
+- **Data & Analytics** — Databases, BI tools, and data platforms for querying and analyzing structured data.
+- **E-commerce & CRM** — Shopify, Salesforce, HubSpot, and others for customer and sales data.
+
+Browse the full library in the askROI integrations panel to see everything that's available.
+
+## Connecting a Tool
+
+<Steps>
+  <Step title="Open the Integrations panel">
+    In askROI, click the **Integrations** icon in the sidebar or navigate to **Settings → Integrations** to open the integrations library.
+  </Step>
+  <Step title="Browse or search for a tool">
+    Scroll through the categories or use the search bar to find the tool you want to connect. Each listing shows what the integration can do and what permissions it requires.
+  </Step>
+  <Step title="Connect the tool">
+    Click **Connect** on the tool's listing. Follow the authorization prompts — most tools use OAuth, so you'll be redirected to sign in and grant the necessary permissions. Once authorized, the integration appears as active in your panel.
+  </Step>
+  <Step title="Use the tool in chat">
+    Start a new chat or open an existing one. The connected tool is now available to the AI. You can mention it explicitly (e.g., "Check my GitHub issues") or simply ask a question and let askROI determine when to invoke it.
+  </Step>
+</Steps>
+
+## Using Integrations in Chat
+
+Once a tool is connected, it becomes part of the AI's toolkit in every chat. Connected integrations appear in the chat composer area so you can see at a glance what's active. You don't need special commands — just describe what you want in plain language and askROI will call the right tool automatically.
+
+For example, if you have GitHub connected, you can say "Summarize the open pull requests in my repo" and askROI will query GitHub, pull the relevant data, and give you a structured summary with direct links. If you have Slack connected, you can ask "Draft a message to my team about today's deployment" and askROI will compose it and optionally send it on your behalf.
+
+You can also chain integrations together. Ask askROI to pull data from one tool and write the results to another — for example, summarizing a Google Sheet and posting the summary to a Slack channel.
+
+<Note>
+  The askROI integrations library is growing continuously. New tools are added regularly, so check back in the integrations panel for the latest additions. If you'd like to see a specific tool supported, reach out to the team at support@askroi.com.
+</Note>
+
+<CardGroup cols={2}>
+  <Card title="Google Workspace" icon="google" href="/features/google-workspace">
+    Connect Google Drive, Docs, Sheets, and Gmail to your askROI workspace.
+  </Card>
+  <Card title="AI Chat" icon="message" href="/features/ai-chat">
+    Learn how askROI's AI chat invokes tools and executes tasks on your behalf.
+  </Card>
+</CardGroup>

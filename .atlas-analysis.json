@@ -1,28 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "askROI",
+  "projectType": "saas",
+  "projectName": "askROI",
+  "projectDescription": "askROI is an AI workspace for chat, research, writing, image generation, and file-based work — available on web, iOS, and Android.",
   "theme": "almond",
-  "colors": {
-    "primary": "#000000",
-    "light": "#ffffff",
-    "dark": "#1f2b4e"
-  },
-  "favicon": "https://media.brand.dev/d3f88924-0a31-420a-9cdf-b0d963c9abbe.png",
-  "font": {
-    "headings": {
-      "family": "Manrope"
-    },
-    "body": {
-      "family": "Manrope"
-    }
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get Started Free",
-      "href": "https://askroi.com"
-    }
-  },
+  "primaryColor": "#000000",
+  "lightColor": "#ffffff",
+  "darkColor": "#1f2b4e",
   "navigation": {
     "tabs": [
       {
@@ -97,5 +80,32 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "AI chat with adaptive tone and style learning",
+    "Real-time web search with citations",
+    "File upload and document analysis (PDFs, spreadsheets, docs)",
+    "Image generation and editing",
+    "Projects for organized, persistent workspaces",
+    "Voice input and playback",
+    "Group chats with shared AI context",
+    "MCP integrations (100+ tools and services)",
+    "Code assistance and debugging",
+    "Agentic task execution",
+    "Cross-platform: web, iOS, Android",
+    "Free plan (2,000 credits/month) and Pro plan ($10/month, 10,000 credits)"
+  ],
+  "publicApiSurface": [
+    "Sign up / Sign in (Google, Apple, Microsoft, email)",
+    "AI Chat interface",
+    "Projects workspace",
+    "File upload and analysis",
+    "Web search tool",
+    "Image generation tool",
+    "Voice input / playback",
+    "MCP integrations panel",
+    "Credit usage dashboard",
+    "Account settings",
+    "Group chat creation"
+  ]
 }
