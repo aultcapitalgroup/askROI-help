@@ -54,10 +54,8 @@
             ]
           },
           {
-            "group": "Plans & Billing",
+            "group": "Subscriptions & Billing",
             "pages": [
-              "what-types-of-plans-do-you-have",
-              "what-are-the-pricing-plans",
               "how-do-i-cancel-my-subscription"
             ]
           },
