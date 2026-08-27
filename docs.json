@@ -44,7 +44,8 @@
             "group": "Apps",
             "pages": [
               "what-are-the-apps-in-askroi"
-            ]
+            ],
+            "hidden": true
           },
           {
             "group": "Prompts",
@@ -64,7 +65,8 @@
             "group": "Enterprise Plan FAQs",
             "pages": [
               "what-are-the-benefits-of-the-enterprise-progarm"
-            ]
+            ],
+            "hidden": true
           },
           {
             "group": "Technical FAQs",
