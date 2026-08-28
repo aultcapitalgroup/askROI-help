@@ -85,14 +85,17 @@
             "pages": [
               "how-can-i-reach-your-sales-team",
               "what-is-your-customer-support-number",
-              "how-do-i-contact-support"
+              "how-do-i-contact-support",
+              "what-are-your-support-hours"
             ]
           },
           {
             "group": "General FAQs",
             "pages": [
-              "how-do-i-create-projects",
-              "what-are-your-support-hours"
+              "how-to-use-the-library",
+              "how-to-use-automations",
+              "how-to-use-groups",
+              "how-do-i-create-projects"
             ]
           },
           {
