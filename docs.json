@@ -112,5 +112,37 @@
   },
   "appearance": {
     "default": "light"
-  }
+  },
+  "redirects": [
+    {
+      "source": "/getting-started",
+      "destination": "/welcome-to-askroi-your-ultimate-ai-solution",
+      "permanent": true
+    },
+    {
+      "source": "/who-is-askroi-for",
+      "destination": "/welcome-to-askroi-your-ultimate-ai-solution",
+      "permanent": true
+    },
+    {
+      "source": "/general-faqs",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/policies",
+      "destination": "/usage-policy",
+      "permanent": true
+    },
+    {
+      "source": "/kb-tickets/new",
+      "destination": "/how-do-i-contact-support",
+      "permanent": true
+    }
+  ]
 }
