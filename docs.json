@@ -41,6 +41,12 @@
             ]
           },
           {
+            "group": "Integrations",
+            "pages": [
+              "slack"
+            ]
+          },
+          {
             "group": "Apps",
             "pages": [
               "what-are-the-apps-in-askroi"
