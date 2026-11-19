@@ -7,7 +7,7 @@
     "light": "#ffffff",
     "dark": "#1f2b4e"
   },
-  "favicon": "https://media.brand.dev/d3f88924-0a31-420a-9cdf-b0d963c9abbe.png",
+  "favicon": "/images/favicon-48.png",
   "font": {
     "headings": {
       "family": "Manrope"
